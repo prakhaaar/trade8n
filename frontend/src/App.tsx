@@ -1,7 +1,7 @@
 function App() {
   return (
     <div>
-      <h1>Trade8n</h1>
+      <h1>new app</h1>
     </div>
   );
 }
