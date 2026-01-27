@@ -5,6 +5,7 @@ const Bot: React.FC = () => {
     <div>
       <h1>Bot Component</h1>
       <h2>bot component</h2>
+      <h3>bot component</h3>
     </div>
   );
 };
