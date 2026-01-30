@@ -1,11 +1,23 @@
 import React from "react";
+import ReactFlow, { Background, Controls } from "reactflow";
+import "reactflow/dist/style.css";
+
+const initialNodes = [
+  {
+    id: "1",
+    position: { x: 250, y: 50 },
+    data: { label: "Bot Component" },
+    type: "input",
+  },
+];
 
 const Bot: React.FC = () => {
   return (
-    <div>
-      <h1>Bot Component</h1>
-      <h2>bot component</h2>
-      <h3>bot component</h3>
+    <div style={{ width: "100%", height: "500px" }}>
+      <ReactFlow nodes={initialNodes} edges={[]}>
+        <Background />
+        <Controls />
+      </ReactFlow>
     </div>
   );
 };
